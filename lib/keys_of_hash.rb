@@ -5,8 +5,8 @@ end
 class Hash
   def keys_of(arguments)
     hash.self do |key, value|
-      if value == arguments 
-      puts key 
+      arguments.each do |x| 
+      puts  
   end
 end
 end 

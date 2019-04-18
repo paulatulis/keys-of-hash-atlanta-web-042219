@@ -4,10 +4,11 @@ end
 
 class Hash
   def keys_of(*arguments)
+    array = []
     hash.self do |key, value|
       arguments.each do |x| 
       if x == value 
-      return key.to_arr 
+      array << key 
   end
 end
 end 

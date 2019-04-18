@@ -7,7 +7,7 @@ class Hash
     hash.self do |key, value|
       arguments.each do |x| 
       if x == value 
-        puts 
+      return key 
   end
 end
 end 

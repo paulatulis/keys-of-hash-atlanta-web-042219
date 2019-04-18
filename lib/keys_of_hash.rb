@@ -3,7 +3,7 @@ def arguments
 end 
 
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     hash.self do |key, value|
       arguments.each do |x| 
       if x == value 

@@ -4,7 +4,7 @@ end
 
 class Hash
   def keys_of(arguments)
-    hash.each do |key, value|
+    hash.self do |key, value|
       if value == arguments 
       puts key 
   end

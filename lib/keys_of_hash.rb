@@ -6,7 +6,8 @@ class Hash
   def keys_of(arguments)
     hash.self do |key, value|
       arguments.each do |x| 
-      if x == arguments 
+      if x == value 
+        puts 
   end
 end
 end 
